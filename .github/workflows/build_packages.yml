@@ -1,6 +1,6 @@
 name: Build all packages
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 env:
   PACKAGE_INDEX_PATH: /tmp/micropython-lib-deploy
